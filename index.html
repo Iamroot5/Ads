@@ -1,133 +1,92 @@
 
+<style>
+     body{
+          height:900px;
+
+
+
+     } 
+     </style>
+<style>html, body{background-color: #FFFFFF; color: #303030;}body{padding-top: 1%; padding-left: 2%; padding-right: 2%; font-size: 14px; font-family: 'Roboto', 'Helvetica Neue', sans-serif;}.title{display: block; width: 100%; text-align: center; font-size: 16px;}p{line-height: 2; display: block;}b{font-size: large;}point, baseup, fixed{padding: .2rem .4rem; border-radius: .25rem;}point{color: #4f6e33; background-color: #e9f3e5;}baseup{background-color: #d5dee2; color: #506874; font-weight: bold}fixed{color: #c7254e; background-color: #f9f2f4}date{font-family: monospace;}</style>
+<body>
+<h1>XNET UPDATES</h1>
+<baseup>Updates</baseup>  
+
+     Thank you for using xnet app <br>
+     
+   <hr>  
+<point>About</point>This app was created on 26 wensday 2024 by process 
+<hr>
+<point>purpose</point> This app was created for vpn users who needs files for any vpn and to bring people together 
+<hr>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XNET Updates</title>
-    <style>
-        html, body {
-            background-color: #FFFFFF;
-            color: #303030;
-            padding: 1% 2%;
-            font-size: 14px;
-            font-family: 'Roboto', 'Helvetica Neue', sans-serif;
-            height: 900px;
-        }
-        h1 {
-            text-align: center;
-        }
-        .title {
-            display: block;
-            width: 100%;
-            text-align: center;
-            font-size: 16px;
-        }
-        p {
-            line-height: 2;
-            display: block;
-        }
-        b {
-            font-size: large;
-        }
-        .point, .baseup, .fixed {
-            padding: .2rem .4rem;
-            border-radius: .25rem;
-        }
-        .point {
-            color: #4f6e33;
-            background-color: #e9f3e5;
-        }
-        .baseup {
-            background-color: #d5dee2;
-            color: #506874;
-            font-weight: bold;
-        }
-        .fixed {
-            color: #c7254e;
-            background-color: #f9f2f4;
-        }
-        date {
-            font-family: monospace;
-        }
-        
-        /* Popup Styles */
-        .popup {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: #fff;
-            border: 2px solid #333;
-            padding: 20px;
-            border-radius: 10px;
-            z-index: 9999;
-            display: none;
-        }
+<title>Advertisement Pop-up with Close Button</title>
+<style>
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 9999;
+  display: none;
+}
 
-        .overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 9998;
-            display: none;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  display: none;
+}
+p{
+  color:green;
+}
 
-        .close-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            cursor: pointer;
-        }
-
-        p {
-            color: green;
-        }
-    </style>
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+</style>
 </head>
 <body>
-
-<h1>XNET UPDATES</h1>
-<div class="baseup">Updates</div>  
-
-Thank you for using the XNET app <br>
-<hr>  
-<div class="point">About</div>
-This app was created on Wednesday, 26th of February, 2024 by Process.
-<hr>
-<div class="point">Purpose</div>
-This app was created for VPN users who need files for any VPN and to bring people together.
-<hr>
 
 <div class="overlay" id="overlay"></div>
 
 <div class="popup" id="popup">
-    <span class="close-btn" onclick="closePopup()">&times;</span>
-    <img width="200" src="https://i.ibb.co/jzj04Pd/th-1861166332.jpg" alt="Advertisement">
-    <p>press and earn:</p>
-    <p>
-        <a href="https://www.cpmrevenuegate.com/ryd8qtaj?key=f6ff7bc2db45faa16aa042093efb69bd" target="_blank">
-         Click here </a>
-    </p>
-    <p>Copy this link</p>
+  <span class="close-btn" onclick="closePopup()">&times;</span>
+  <img width="200" src="https://i.ibb.co/jzj04Pd/th-1861166332.jpg">
+    <p>copy this 👉 paste on chrome and earn money 
+        
+
+        Copy this link 
+        <a href="https://www.cpmrevenuegate.com/ryd8qtaj?key=f6ff7bc2db45faa16aa042093efb69bd">Get</a></p>
 </div>
 
 <script>
 function closePopup() {
-    document.getElementById("overlay").style.display = "none";
-    document.getElementById("popup").style.display = "none";
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("popup").style.display = "none";
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function(){
-        document.getElementById("overlay").style.display = "block";
-        document.getElementById("popup").style.display = "block";
-    }, 2000); // 2000 milliseconds (2 seconds) delay before displaying the pop-up
+  setTimeout(function(){
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("popup").style.display = "block";
+  }, 1000); // 2000 milliseconds (2 seconds) delay before displaying the pop-up
 });
 </script>
 
 </body>
 </html>
+</body>
