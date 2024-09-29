@@ -1,2 +1,134 @@
 
-<frame src=*https://www.cpmrevenuegate.com/ryd8qtaj?key=f6ff7bc2db45faa16aa042093efb69bd" width="600" height="400">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XNET Updates</title>
+    <style>
+        html, body {
+            background-color: #FFFFFF;
+            color: #303030;
+            padding: 1% 2%;
+            font-size: 14px;
+            font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+            height: 900px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .title {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+        }
+        p {
+            line-height: 2;
+            display: block;
+        }
+        b {
+            font-size: large;
+        }
+        .point, .baseup, .fixed {
+            padding: .2rem .4rem;
+            border-radius: .25rem;
+        }
+        .point {
+            color: #4f6e33;
+            background-color: #e9f3e5;
+        }
+        .baseup {
+            background-color: #d5dee2;
+            color: #506874;
+            font-weight: bold;
+        }
+        .fixed {
+            color: #c7254e;
+            background-color: #f9f2f4;
+        }
+        date {
+            font-family: monospace;
+        }
+        
+        /* Popup Styles */
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            border: 2px solid #333;
+            padding: 20px;
+            border-radius: 10px;
+            z-index: 9999;
+            display: none;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9998;
+            display: none;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+
+        p {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+<h1>XNET UPDATES</h1>
+<div class="baseup">Updates</div>  
+
+Thank you for using the XNET app <br>
+<hr>  
+<div class="point">About</div>
+This app was created on Wednesday, 26th of February, 2024 by Process.
+<hr>
+<div class="point">Purpose</div>
+This app was created for VPN users who need files for any VPN and to bring people together.
+<hr>
+
+<div class="overlay" id="overlay"></div>
+
+<div class="popup" id="popup">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <img width="200" src="https://i.ibb.co/jzj04Pd/th-1861166332.jpg" alt="Advertisement">
+    <p>press and earn:</p>
+    <p>
+        <a href="https://www.cpmrevenuegate.com/ryd8qtaj?key=f6ff7bc2db45faa16aa042093efb69bd" target="_blank">
+            
+        </a>
+    </p>
+    <p>Copy this link</p>
+</div>
+
+<script>
+function closePopup() {
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("popup").style.display = "none";
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function(){
+        document.getElementById("overlay").style.display = "block";
+        document.getElementById("popup").style.display = "block";
+    }, 2000); // 2000 milliseconds (2 seconds) delay before displaying the pop-up
+});
+</script>
+
+</body>
+</html>
